@@ -34,7 +34,7 @@ $.ajax({
     alert(data["responseJSON"]["msg"]);
   },
 });
-const url2 = "http://127.0.0.1:5500/questions/" + username;
+const url2 = "http://127.0.0.1:5500/questions/user/" + username;
 $.ajax({
   url: url2,
   type: "GET",
