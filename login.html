@@ -8,15 +8,48 @@
   <body>
     <div class="login-page">
       <div class="form">
-        <form class="register-form" action="#">
-          <input type="text" id="user-reg" placeholder="username" />
-          <input type="password" id="pass-reg" placeholder="password" />
-          <input type="text" id="email-reg" placeholder="email address" />
-          <input type="text" id="city-reg" placeholder="city" />
-          <input type="text" id="state-reg" placeholder="state" />
-          <input type="text" id="country-reg" placeholder="country" />
-          <input type="text" id="profile-reg" placeholder="profile" />
-          <button>create</button>
+        <form class="register-form" id="register-form" action="#">
+          <input
+            type="text"
+            id="user-reg"
+            name="userReg"
+            placeholder="username"
+            required
+          />
+          <input
+            type="password"
+            id="pass-reg"
+            name="passReg"
+            placeholder="password"
+            required
+          />
+          <input
+            type="email"
+            id="email-reg"
+            name="emailReg"
+            placeholder="email address"
+            required
+          />
+          <input type="text" id="city-reg" name="cityReg" placeholder="city" />
+          <input
+            type="text"
+            id="state-reg"
+            name="stateReg"
+            placeholder="state"
+          />
+          <input
+            type="text"
+            id="country-reg"
+            name="countryReg"
+            placeholder="country"
+          />
+          <input
+            type="text"
+            id="profile-reg"
+            name="profileReg"
+            placeholder="profile"
+          />
+          <button>Create</button>
           <p class="message">Already registered? <a href="#">Sign In</a></p>
         </form>
         <form class="login-form" id="login-form" action="#">
